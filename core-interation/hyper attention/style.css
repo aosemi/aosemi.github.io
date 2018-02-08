@@ -1,0 +1,69 @@
+body{
+	background-color: black;
+	text-align: center;
+}
+h1{
+	color: white;
+	font-family: 'Encode Sans Expanded', sans-serif;
+	font-size: 80px;
+	margin-top: 0px;
+}
+.buttonleft{
+	position: absolute;
+	top: 40px;
+	left: 10px;
+}
+.buttonright{
+	position: absolute;
+	top: 300px;
+	right: 10px;
+}
+
+p{
+	color: white;
+	font-family: 'Encode Sans Expanded', sans-serif;
+	font-size: 20px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+ol{
+	color: white;
+	font-family: 'Encode Sans Expanded', sans-serif;
+	font-size: 20px;
+	margin-right: 100px;
+	margin-left: 100px;
+	text-align: left;
+}
+
+ul{
+	color: white;
+	font-family: 'Encode Sans Expanded', sans-serif;
+	font-size: 20px;
+	margin-right: 100px;
+	margin-left: 100px;
+	text-align: left;
+}
+h2{	
+	color: white;
+	font-family: 'Encode Sans Expanded', sans-serif;
+	font-size: 20px;
+	margin-left: 200px;
+	margin-right: 200px;
+
+}
+.left{
+	float: left;
+	margin-left: 100px;
+	font-family: 'Encode Sans Expanded', sans-serif;
+	font-size: 30px;
+	color: white;
+	margin-top: 70px;
+}
+.right{
+	float: right;
+	margin-right: 100px;
+	font-family: 'Encode Sans Expanded', sans-serif;
+	font-size: 30px;
+	color: white;
+	margin-top: 70px;
+}
