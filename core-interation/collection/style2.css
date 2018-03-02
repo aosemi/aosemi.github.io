@@ -1,0 +1,69 @@
+body{
+	background-color: #ffa3a3;
+}
+h1{
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size:100px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+.content{
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size:40px;
+	text-align: center;
+}
+.group{
+	position: relative;
+	transition: all 0.3s;
+	transform: rotateY(0deg);
+	display: block;
+	width: 307px;
+	margin-left: 130px;
+	margin-top: 40px;
+}
+
+.group:hover{
+	transform: rotateY(180deg);	
+}
+
+.group:hover .color{
+	animation-duration: 0.3s;
+	animation-name: group;
+	animation-fill-mode: forwards;
+}
+
+.group img{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+
+}
+.mistysky{
+	transform: rotateY(180deg);	
+}
+
+@keyframes group {
+	0%{
+		opacity: 1;
+	}
+
+	49%{
+		opacity: 1;
+	}
+
+	50%{
+		opacity: 0;
+	}
+
+	100%{
+		opacity: 0;
+	}
+}
+.color{
+	width: 307px;
+	height: 547px;
+}

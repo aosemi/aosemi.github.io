@@ -1,0 +1,117 @@
+body{
+	background-color: #ffa3a3;
+	background-image: url("lacebg.png");
+	background-repeat: repeat-x;
+	text-align: center;
+
+}
+h1{
+	margin-top: 130px;
+}
+.head{
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size:100px;
+	text-align: center;
+	display: inline;
+	font-weight: bold;
+}
+
+.video{
+	margin-top: 100px;
+}
+.a {	
+	margin-top: 30px;
+	margin-left: 270px;
+
+}
+
+.b {
+	margin-top: 30px;
+	margin-left: 470px;
+}
+
+.c {
+	margin-top: 30px;
+	margin-left: 670px;
+}
+
+.d{
+	margin-top: 30px;
+	margin-left: 870px;
+}
+
+.e{
+	margin-top: 30px;
+	margin-left: 1070px;
+}
+
+.f{
+	margin-top: 250px;
+	margin-left: 370px;
+}
+
+.g{
+	margin-top: 250px;
+	margin-left: 570px;
+}
+
+.h{
+	margin-top: 250px;
+	margin-left: 770px;
+}
+
+.i{
+	margin-top: 250px;
+	margin-left: 970px;
+}
+
+.j{
+	margin-top: 250px;
+	margin-left: 1170px;
+}
+.group{
+	position: relative;
+	transition: all 0.3s;
+	transform: rotateY(0deg);
+	display: block;
+	width: 60px;
+}
+
+.group:hover{
+	transform: rotateY(180deg);	
+}
+
+.group:hover .color{
+	animation-duration: 0.3s;
+	animation-name: group;
+	animation-fill-mode: forwards;
+}
+
+.group img{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+
+}
+.mistysky{
+	transform: rotateY(180deg);	
+}
+
+@keyframes group {
+	0%{
+		opacity: 1;
+	}
+
+	49%{
+		opacity: 1;
+	}
+
+	50%{
+		opacity: 0;
+	}
+
+	100%{
+		opacity: 0;
+	}
+}
