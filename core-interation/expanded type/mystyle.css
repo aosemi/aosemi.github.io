@@ -1,0 +1,69 @@
+body{
+	background-color:#fdffab;
+	font-family: 'DiavoloNero';
+}
+
+@font-face {
+	font-family: DiavoloNero; 
+	src: url('Diavolo Nero.ttf'); } 
+
+#DIA {
+	position: absolute;
+	width: 300px;
+}
+
+.home {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%
+	width: 300px;
+	height: 300px;
+	border-radius: 50px;
+	margin-top: 200px;
+	animation: spin 8s infinite linear;
+}
+
+
+.frame{
+	width: 300px;
+	height: 20px;
+	position: absolute;
+}
+
+@keyframes spin{
+	0% {
+		transform: rotate(0);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+input[type=text] {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 500px;
+	border: 2px solid#ce4f28
+	width:500px;
+	height: 40px;
+	background-color: #efec9b;
+}
+
+#output{
+	font-size: 400px;
+	position: absolute;
+	top: 100px;
+	left: 680px;
+	color: #e43c3c;
+}
+
+#gif{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: -20px;
+	left: 470px;
+}
