@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Good Night Parsons</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400" rel="stylesheet">
+
+
+<link rel="stylesheet" href="style.css">
+
+  
+</head>
+
+<body>
+<div class="heading">
+  <h1>Good Night Parsons</h1>
+  <h5>( The website helps you find a place to rest in Parsons )</h5>
+  <br>
+  <br>
+  <br>
+</div>
+<div class="container">
+
+
+  <div class="ui-card" id="card">
+    <!-- <div id="card" > -->
+      <div class="front">
+      <img src="5flfront.jpg" style="width: 12rem; height: 20rem;">
+    </div>
+    <div class="back">
+      <img src="5flback.jpg" style="width: 12rem; height: 20rem; " >
+    </div>
+    <!-- </div> -->
+  </div>
+
+
+
+
+  <div class="ui-card" id="card_2">
+    
+      <div class="front">
+      <img src="6flfront.JPG" style="width: 12rem; height: 20rem;">
+    </div>
+    <div class="back">
+      <img src="6flback.JPG" style="width: 12rem; height: 20rem; " >
+    </div>
+    
+  </div>
+
+  <div class="ui-card" id="card_3">
+    <div class="front">
+      <img src="7flfront.JPG" style="width: 12rem; height: 20rem;">
+    </div>
+    <div class="back">
+      <img src="7flback.JPG" style="width: 12rem; height: 20rem; " >
+    </div>
+  </div>
+</div>
+
+
+
+<div class="bottomMenu">
+  <img src="1.gif" style="margin-top: 150px">
+  <audio id="audio_player" ontimeupdate="audioProgressBar()" preload="auto" controls>
+  <source src="qingfeng.mp3" type="audio/mpeg">
+</audio>
+
+
+
+<div class="audioprogress">
+  <svg class="progressCircle" x="0px" y="0px" width="166px" height="166px" viewBox="0 0 166 166" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <circle class="progressbarTrack" stroke-miterlimit="10" cx="83" cy="83" r="80" fill="transparent"></circle>
+    <circle id="bar" class="progressbarLoading" stroke-miterlimit="10" cx="83" cy="83" r="80" stroke-dasharray="502" stroke-dashoffset="-502" fill="transparent"></circle>
+  </svg>
+
+  <a href="" id="audio_control" class="control">Play/Pause<span>
+    <span class="one"><i></i><em></em></span>
+    <span class="two"><i></i><em></em></span>
+  </span>
+  </a>
+</div>
+<div class="dashoffset"><span id="dashoffset"></span></div><div class="dashoffset"><span id="dashoffset"></span></div>
+</div>
+
+
+  
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+  <script  src="index.js"></script>
+
+
+</body>
+</html>
